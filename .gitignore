@@ -1,0 +1,12 @@
+/*
+!/.gitignore
+!/LICENSE.txt
+!/README.md
+!/README.src.md
+!/setup.py
+!/screenshot
+!/src
+!/AoikPDFBookmark
+__pycache__
+*.egg-info
+*.pyc
