@@ -2,7 +2,7 @@
 """
 File ID: 3ngd7IH
 """
-
+from __future__ import absolute_import
 
 import imp
 import os.path
@@ -12,7 +12,7 @@ import sys
 try:
     from urllib.request import urlopen ## Py3
 except ImportError:
-    from urllib.request import urlopen ## Py2
+    from urllib2 import urlopen ## Py2
 
 #/
 __version__ = '0.2.3'
