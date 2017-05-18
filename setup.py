@@ -1,6 +1,6 @@
 # coding: utf-8
 #
-from __future__ import absolute_import
+
 
 from setuptools import find_packages
 from setuptools import setup
